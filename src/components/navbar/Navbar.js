@@ -14,7 +14,8 @@ const Navbar = () => {
             <div className='navbar__container'>
                 <div className='container__content'>
                     <div className='content__title'>
-                        <a href='https://www.w3schools.com/react/default.asp' >
+                        {/* target __blank opens the link in a new tab */}
+                        <a href='https://www.w3schools.com/react/default.asp' target='__blank' >
                             <FaReact className='content__title--icon' />
                             <h2>React</h2>
                         </a>

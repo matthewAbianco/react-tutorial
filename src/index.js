@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HooksPage from './routes/HooksPage';
-import TutorialPage from './routes/TutorialPage';
+import HooksPage from './routes/hooksRoutes/HooksMain';
+import TutorialMain from './routes/tutorialRoutes/TutorialMain';
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<TutorialPage />} />
+      <Route path='/' element={<TutorialMain />} />
       <Route path='/hooks' element={<HooksPage />} />
     </Routes>
   </BrowserRouter>,
