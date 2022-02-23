@@ -1,0 +1,42 @@
+.navbar {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+}
+
+.navbar__container {
+	background-color: aquamarine;
+}
+
+.container__content {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.container__content h2:hover {
+	cursor: pointer;
+}
+
+.content__title a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 5px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.content__title--icon {
+	font-size: 1.25rem;
+	color: blueviolet;
+	padding: 5px;
+}
