@@ -1,26 +1,27 @@
 import React from 'react'
 import SidebarOption from '../sidebarOptions/SidebarOption'
+import { Link } from 'react-router-dom'
 import './ReactTutorial.css'
 
 const ReactTutorial = () => {
     return (
         <div className='sidebar'>
             <div className='sidebar__options'>
-                <SidebarOption title="Home" />
-                <SidebarOption title="Intro" />
-                <SidebarOption title="Get Started" />
-                <SidebarOption title="Render HTML" />
-                <SidebarOption title="JSX" />
-                <SidebarOption title="Components" />
-                <SidebarOption title="Class" />
-                <SidebarOption title="Props" />
-                <SidebarOption title="Conditionals" />
-                <SidebarOption title="Lists" />
-                <SidebarOption title="Forms" />
-                <SidebarOption title="Router" />
-                <SidebarOption title="Memo" />
-                <SidebarOption title="CSS Styling" />
-                <SidebarOption title="Sass Styling" />
+                <Link to='/'><SidebarOption title="Home" /></Link>
+                <Link to='/intro'><SidebarOption title='intro' /></Link>
+                <Link to='/getStarted'><SidebarOption title="Get Started" /></Link>
+                <Link to='/renderHtml'><SidebarOption title="Render HTML" /></Link>
+                <Link to='/jsx'><SidebarOption title="JSX" /></Link>
+                <Link to='/components'><SidebarOption title="Components" /></Link>
+                <Link to='/class'><SidebarOption title="Class" /></Link>
+                <Link to='/props'><SidebarOption title="Props" /></Link>
+                <Link to='/conditionals'><SidebarOption title="Conditionals" /></Link>
+                <Link to='/lists'><SidebarOption title="Lists" /></Link>
+                <Link to='/forms'><SidebarOption title="Forms" /></Link>
+                <Link to='/router'><SidebarOption title="Router" /></Link>
+                <Link to='memo'><SidebarOption title="Memo" /></Link>
+                <Link to='cssStyling'><SidebarOption title="CSS Styling" /></Link>
+                <Link to='sassStyling'><SidebarOption title="Sass Styling" /></Link>
             </div>
         </div>
     )

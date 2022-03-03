@@ -1,0 +1,33 @@
+.title {
+	display: flex;
+	justify-content: center;
+	background-color: seashell;
+}
+
+.about {
+	padding: 10px;
+}
+
+.about--h3 {
+	font-size: 4rem;
+	background-color: beige;
+}
+
+.about__section {
+	display: flex;
+	font-size: 1.6rem;
+	word-spacing: 1ch;
+	padding: 120px 80px 120px;
+	background-color: seashell;
+}
+
+.about__section__test {
+	display: flex;
+	flex-wrap: wrap;
+	font-style: italic;
+}
+
+.hi__img {
+	float: left;
+	padding: 0 10px 0 0;
+}
