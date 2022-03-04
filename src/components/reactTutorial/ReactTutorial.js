@@ -8,7 +8,7 @@ const ReactTutorial = () => {
         <div className='sidebar'>
             <div className='sidebar__options'>
                 <Link to='/'><SidebarOption title="Home" /></Link>
-                <Link to='/intro'><SidebarOption title='intro' /></Link>
+                <Link to='/intro'><SidebarOption title='Intro' /></Link>
                 <Link to='/getStarted'><SidebarOption title="Get Started" /></Link>
                 <Link to='/renderHtml'><SidebarOption title="Render HTML" /></Link>
                 <Link to='/jsx'><SidebarOption title="JSX" /></Link>
@@ -19,9 +19,9 @@ const ReactTutorial = () => {
                 <Link to='/lists'><SidebarOption title="Lists" /></Link>
                 <Link to='/forms'><SidebarOption title="Forms" /></Link>
                 <Link to='/router'><SidebarOption title="Router" /></Link>
-                <Link to='memo'><SidebarOption title="Memo" /></Link>
-                <Link to='cssStyling'><SidebarOption title="CSS Styling" /></Link>
-                <Link to='sassStyling'><SidebarOption title="Sass Styling" /></Link>
+                <Link to='/memo'><SidebarOption title="Memo" /></Link>
+                <Link to='/cssStyling'><SidebarOption title="CSS Styling" /></Link>
+                <Link to='/sassStyling'><SidebarOption title="Sass Styling" /></Link>
             </div>
         </div>
     )

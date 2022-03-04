@@ -1,23 +1,22 @@
 import React from 'react'
+import WhatIsAHook from '../../components/reactHooks/hooksOptions/whatIsAHook/WhatIsAHook'
 import Navbar from '../../components/navbar/Navbar'
-import ReactTutorial from '../../components/reactTutorial/ReactTutorial'
-import JSX from '../../components/reactTutorial/tutorialOptions/jsx/JSX'
-import './routes.css'
+import ReactHooks from '../../components/reactHooks/ReactHooks'
 
-const TutorialJSX = () => {
+const HooksWhatIsAHook = () => {
     return (
         <div className='container'>
             <Navbar />
             <div className='body'>
                 <div className='body__sidebar'>
-                    <ReactTutorial />
+                    <ReactHooks />
                 </div>
                 <div className='body__home'>
-                    <JSX />
+                    <WhatIsAHook />
                 </div>
             </div>
         </div>
     )
 }
 
-export default TutorialJSX
+export default HooksWhatIsAHook

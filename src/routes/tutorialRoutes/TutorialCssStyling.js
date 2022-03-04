@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import ReactTutorial from '../../components/reactTutorial/ReactTutorial'
-import JSX from '../../components/reactTutorial/tutorialOptions/jsx/JSX'
+import CssStyling from '../../components/reactTutorial/tutorialOptions/cssStyling/CssStyling'
+
 import './routes.css'
 
-const TutorialJSX = () => {
+const TutorialCssStyling = () => {
     return (
         <div className='container'>
             <Navbar />
@@ -13,11 +14,11 @@ const TutorialJSX = () => {
                     <ReactTutorial />
                 </div>
                 <div className='body__home'>
-                    <JSX />
+                    <CssStyling />
                 </div>
             </div>
         </div>
     )
 }
 
-export default TutorialJSX
+export default TutorialCssStyling

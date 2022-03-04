@@ -26,7 +26,7 @@ const Navbar = () => {
                         <Link to='/'><h2>React Tutorial</h2></Link>
                     </div>
                     <div className={`content content__hooks ${isActive ? "active" : ""}`}>
-                        <Link to='/hooks'><h2>React Hooks</h2></Link>
+                        <Link to='/whatIsAHook'><h2>React Hooks</h2></Link>
                     </div>
                 </div>
             </div>
