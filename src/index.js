@@ -19,6 +19,15 @@ import TutorialCssStyling from './routes/tutorialRoutes/TutorialCssStyling'
 import TutorialSassStyling from './routes/tutorialRoutes/TutorialSassStyling'
 
 import HooksWhatIsAHook from './routes/hooksRoutes/HooksWhatIsAHook'
+import HooksUseState from './routes/hooksRoutes/HooksUseState'
+import HooksUseEffect from './routes/hooksRoutes/HooksUseEffect'
+import HooksUseContext from './routes/hooksRoutes/HooksUseContext'
+import HooksUseRef from './routes/hooksRoutes/HooksUseRef'
+import HooksUseReducer from './routes/hooksRoutes/HooksUseReducer'
+import HooksUseCallback from './routes/hooksRoutes/HooksUseCallback'
+import HooksUseMemo from './routes/hooksRoutes/HooksUseMemo'
+import HooksCustomHooks from './routes/hooksRoutes/HooksCustomHooks'
+
 
 
 
@@ -47,14 +56,14 @@ ReactDOM.render(
 
       {/* advanced react */}
       < Route path='/whatIsAHook' element={<HooksWhatIsAHook />} />
-      {/* < Route path='/useState' element={<HooksUseState />} />
+      < Route path='/useState' element={<HooksUseState />} />
       < Route path='/useEffect' element={<HooksUseEffect />} />
-      < Route path='/useContent' element={<HooksUseContent />} />
+      < Route path='/useContext' element={<HooksUseContext />} />
       < Route path='/useRef' element={<HooksUseRef />} />
       < Route path='/useReducer' element={<HooksUseReducer />} />
       < Route path='/useCallback' element={<HooksUseCallback />} />
       < Route path='/useMemo' element={<HooksUseMemo />} />
-      < Route path='/customHooks' element={<HooksCustomHooks />} /> */}
+      < Route path='/customHooks' element={<HooksCustomHooks />} />
 
     </Routes>
   </BrowserRouter>,
