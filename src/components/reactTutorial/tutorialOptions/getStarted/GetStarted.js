@@ -4,20 +4,20 @@ import { LoremIpsum } from 'react-lorem-ipsum'
 
 const GetStarted = () => {
     return (
-        <div className='container'>
-            <div className='content'>
+        <div className='started__container'>
+            <div className='started__content'>
 
-                <div className='title'>
+                <div className='started__section started__title'>
                     <h2>Starting React</h2>
                     <p> <LoremIpsum p={1} /> </p>
                 </div>
 
-                <div className='react__html'>
-                    <h2>react In Html</h2>
+                <div className='started__section started__react__html'>
+                    <h2>React In Html</h2>
                     <p> <LoremIpsum p={1} /> </p>
                 </div>
 
-                <div className='react__setup'>
+                <div className='started__section started__react__setup'>
                     <h2>Setting up and running react</h2>
                     <p> <LoremIpsum p={1} /> </p>
                 </div>

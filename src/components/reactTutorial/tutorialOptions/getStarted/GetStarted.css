@@ -1,0 +1,24 @@
+.started__content {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.started__section {
+	padding: 40px 100px 40px 100px;
+	border: 2px red solid;
+	border-width: 2px;
+	border-style: dotted;
+	background-color: snow;
+}
+
+.started__section h2 {
+	padding: 10px;
+	border: 8px solid;
+}
+
+.started__section p {
+	padding: 20px;
+	border: 2px orangered solid;
+	font-size: 1.5rem;
+}
