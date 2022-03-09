@@ -2,14 +2,11 @@ import React from 'react'
 import './Navbar.css'
 import { FaReact } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
 
 
 
 
 const Navbar = () => {
-
-    const [isActive, setIsActive] = useState(true)
 
     return (
         <div className='navbar'>
@@ -22,10 +19,10 @@ const Navbar = () => {
                             <h2>React</h2>
                         </a>
                     </div>
-                    <div className={`content content__tutorial ${isActive ? "" : "active"}`}>
+                    <div className='content content__tutorial' >
                         <Link to='/'><h2>React Tutorial</h2></Link>
                     </div>
-                    <div className={`content content__hooks ${isActive ? "active" : ""}`}>
+                    <div className='content content__hooks'>
                         <Link to='/whatIsAHook'><h2>React Hooks</h2></Link>
                     </div>
                 </div>
