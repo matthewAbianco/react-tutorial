@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import hi from './hi.png'
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
                     <h3 className='about--h3'>About</h3>
                 </div>
                 <div className='about__section'>
-                    <img className='hi__img' src='./hi.png' alt='hi' />
+                    <img className='hi__img' src={hi} alt='hi' />
                     <p className='about__section__text'> This is a React app that I made so I could teach myself React. I built it based on the
                         <a href='https://www.w3schools.com/react/react_getstarted.asp' className='about__section--anchor'> w3schools</a> layout.
                         While w3schools will be my primary source for my descriptions, Everything will be explained in my own words with links
