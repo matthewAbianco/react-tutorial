@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import TutorialHome from './routes/tutorialRoutes/TutorialHome';
 import TutorialIntro from './routes/tutorialRoutes/TutorialIntro';
 import TutorialGetStarted from './routes/tutorialRoutes/TutorialGetStarted';
+import TutorialES6 from './routes/tutorialRoutes/TutorialES6';
 import TutorialRenderHtml from './routes/tutorialRoutes/TutorialRenderHtml';
 import TutorialJSX from './routes/tutorialRoutes/TutorialJSX';
 import TutorialComponents from './routes/tutorialRoutes/TutorialComponents';
@@ -40,6 +41,7 @@ ReactDOM.render(
       <Route path='/' element={<TutorialHome />} />
       <Route path='/intro' element={<TutorialIntro />} />
       <Route path='/getStarted' element={<TutorialGetStarted />} />
+      <Route path='/ES6' element={<TutorialES6 />} />
       <Route path='/renderHtml' element={<TutorialRenderHtml />} />
       <Route path='/jsx' element={<TutorialJSX />} />
       <Route path='/components' element={<TutorialComponents />} />

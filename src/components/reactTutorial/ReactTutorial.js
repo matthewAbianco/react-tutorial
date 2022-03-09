@@ -10,7 +10,7 @@ const ReactTutorial = () => {
                 <Link to='/'><SidebarOption title="Home" /></Link>
                 <Link to='/intro'><SidebarOption title='Intro' /></Link>
                 <Link to='/getStarted'><SidebarOption title="Get Started" /></Link>
-                <Link to='/renderHtml'><SidebarOption title="ES6" /></Link>
+                <Link to='/ES6'><SidebarOption title="ES6" /></Link>
                 <Link to='/renderHtml'><SidebarOption title="Render HTML" /></Link>
                 <Link to='/jsx'><SidebarOption title="JSX" /></Link>
                 <Link to='/components'><SidebarOption title="Components" /></Link>
