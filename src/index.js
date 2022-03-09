@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import TutorialHome from './routes/tutorialRoutes/TutorialHome';
 import TutorialIntro from './routes/tutorialRoutes/TutorialIntro';
 import TutorialGetStarted from './routes/tutorialRoutes/TutorialGetStarted';
