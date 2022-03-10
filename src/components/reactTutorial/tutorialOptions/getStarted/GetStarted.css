@@ -19,6 +19,30 @@
 
 .started__section p {
 	padding: 20px;
-	border: 2px orangered solid;
+	display: flex;
+
 	font-size: 1.5rem;
+}
+
+.started__link {
+	background-color: red;
+}
+
+.started__image__container {
+	padding: 20px 0px;
+}
+
+.started__image__container h3 {
+	padding: 8px;
+	text-decoration: underline;
+}
+
+.started__image__container h4 {
+	font-size: 2rem;
+	color: magenta;
+}
+
+.started__image {
+	height: 80vh;
+	width: 100%;
 }
