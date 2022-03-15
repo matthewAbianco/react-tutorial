@@ -4,7 +4,7 @@ import './ES6.css'
 
 const ES6 = () => {
     return (
-        <div>ES6</div>
+        <div></div>
     )
 }
 
