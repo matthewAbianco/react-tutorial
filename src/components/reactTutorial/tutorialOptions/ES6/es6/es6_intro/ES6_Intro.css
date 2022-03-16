@@ -1,20 +1,15 @@
-.es6Intro__content {
+.es6Intro__container {
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
 }
 
-.es6Intro__section {
+.es6__section {
 	padding: 40px 100px 40px 100px;
 	border: 2px;
 	border-width: 2px;
-	border-style: dashed;
-	background-color: snow;
-}
-
-.es6Intro__section h2 {
-	padding: 10px;
-	border: 2px blanchedalmond solid;
+	border-style: 20px double red;
+	background-color: peachpuff;
 }
 
 .es6Intro__section p {
