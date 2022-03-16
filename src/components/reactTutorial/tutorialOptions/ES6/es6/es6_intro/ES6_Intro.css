@@ -1,0 +1,22 @@
+.es6Intro__content {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.es6Intro__section {
+	padding: 40px 100px 40px 100px;
+	border: 2px;
+	border-width: 2px;
+	border-style: dashed;
+	background-color: snow;
+}
+
+.es6Intro__section h2 {
+	padding: 10px;
+	border: 2px blanchedalmond solid;
+}
+
+.es6Intro__section p {
+	font-size: 1.5rem;
+}

@@ -41,7 +41,7 @@ export default function PositionedMenu() {
                 }}
             >
 
-                <Link to='/ES6'><MenuItem onClick={handleClose}>ES6 Intro</MenuItem></Link>
+                <Link to='/ES6'><MenuItem onClick={handleClose}>ES6 Intro ( ͡° ͜ʖ ͡°) </MenuItem></Link>
                 <Link to='/Classes'><MenuItem onClick={handleClose}>Classes</MenuItem></Link>
                 <Link to='/ArrowFunctions'><MenuItem onClick={handleClose}>Arrow Functions</MenuItem></Link>
                 <Link to='/Variables'><MenuItem onClick={handleClose}>Variables</MenuItem></Link>
