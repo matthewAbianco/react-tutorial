@@ -1,5 +1,5 @@
 import React from 'react'
-import './ES6Variables.css'
+import './Variables.css'
 
 const Variables = () => {
     return (
