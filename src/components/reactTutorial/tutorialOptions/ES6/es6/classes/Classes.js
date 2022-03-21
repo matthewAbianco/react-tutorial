@@ -13,7 +13,7 @@ const Classes = () => {
                 <div className='classes__section'>
                     <h1> DISCLAIMER!! </h1>
                     <p>
-                        As of React version 16.7.0 "Functional components" have become over class constructor.
+                        As of React version 16.7.0 "Functional components" has replaced class constructor.
                         This change came about because React introuced a feature called "Hooks". That being said,
                         it is still valuable to learn about "Class components" as it will be alot of React legacy code
                         that is built with Class components.
