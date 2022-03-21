@@ -24,6 +24,7 @@ const ReactTutorial = () => {
                 <Link to='/memo'><SidebarOption title="Memo" /></Link>
                 <Link to='/cssStyling'><SidebarOption title="CSS Styling" /></Link>
                 <Link to='/sassStyling'><SidebarOption title="Sass Styling" /></Link>
+                <Link to='/notes'><SidebarOption title="General notes" /></Link>
             </div>
         </div>
     )

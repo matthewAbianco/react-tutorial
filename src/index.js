@@ -30,8 +30,6 @@ import ES6SpreadOperator from './routes/tutorialEs6Routes/ES6SpreadOperator'
 import ES6Modules from './routes/tutorialEs6Routes/ES6Modules'
 import ES6TernaryOperator from './routes/tutorialEs6Routes/ES6TernaryOperator'
 
-
-
 import HooksWhatIsAHook from './routes/hooksRoutes/HooksWhatIsAHook'
 import HooksUseState from './routes/hooksRoutes/HooksUseState'
 import HooksUseEffect from './routes/hooksRoutes/HooksUseEffect'
@@ -41,6 +39,8 @@ import HooksUseReducer from './routes/hooksRoutes/HooksUseReducer'
 import HooksUseCallback from './routes/hooksRoutes/HooksUseCallback'
 import HooksUseMemo from './routes/hooksRoutes/HooksUseMemo'
 import HooksCustomHooks from './routes/hooksRoutes/HooksCustomHooks'
+
+import NotesRoutes from './routes/notesRoutes/NotesRoutes'
 
 
 
@@ -89,6 +89,9 @@ ReactDOM.render(
       < Route path='/useCallback' element={<HooksUseCallback />} />
       < Route path='/useMemo' element={<HooksUseMemo />} />
       < Route path='/customHooks' element={<HooksCustomHooks />} />
+
+      {/* note routes */}
+      < Route path='/notes' element={<NotesRoutes />} />
 
     </Routes>
   </BrowserRouter>,
