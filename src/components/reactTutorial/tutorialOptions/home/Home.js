@@ -22,7 +22,7 @@ const Home = () => {
                     <p className='home__about__section__text'> <img className='home__hi__img' src={hi} alt='hi' /> This is a React app
                         that I made so I could teach myself React. I built it based on the <a href='https://www.w3schools.com/react/react_getstarted.asp' className='home__about__section--anchor'>W3schools</a> layout.
                         While w3schools will be my primary source for my descriptions, Everything will be explained in my own words with links
-                        given if neccessicary The CSS Styling will be inconsistent as I am looking to try new things and this is as good of a
+                        given if neccessicary. The CSS Styling will be inconsistent as I am looking to try new things and this is as good of a
                         medium as any. As well, having a visual reminder of the styling helps me remember it for future projects.
 
                     </p>

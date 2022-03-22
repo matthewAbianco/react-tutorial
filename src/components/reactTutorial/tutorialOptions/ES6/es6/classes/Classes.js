@@ -40,7 +40,7 @@ const Classes = () => {
                     <h2>Class Inheritance</h2>
                     <p> To create a class inheritance, use the extends keyword.
                         A class created with a class inheritance inherits all the methods from another class</p>
-                    <img className='teste' src={fourClassInheritance} alt='' />
+                    <img className='teste' src={fourClassInheritance} alt='class inheritance' />
                 </div>
             </div>
         </div>
