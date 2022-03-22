@@ -18,7 +18,7 @@ const GetStarted = () => {
                     <h2>Starting React</h2>
                     <div className='started__title__container'>
                         <h3> * Requirement * </h3>
-                        <p>To use React in production, you need npm (Node Package Manager) which is included with <a href='https://nodejs.org/en/' className='started__link'>Node.js</a></p>
+                        <p>To use React in production, you need npm (Node Package Manager) which is included with <a href='https://nodejs.org/en/' target='__blank' className='started__link'>Node.js</a></p>
                     </div>
                     <div className='started__title__container'>
                         <h3> How to install using npm </h3>
