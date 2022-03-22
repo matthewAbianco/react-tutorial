@@ -1,6 +1,5 @@
 import React from 'react'
 import './ArrowFunctions.css'
-import { LoremIpsum } from 'react-lorem-ipsum'
 
 import oneBefore from './assets/oneBefore.png'
 import twoWithArrowFunction from './assets/twoWithArrowFunction.png'
