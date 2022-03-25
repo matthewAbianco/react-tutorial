@@ -17,7 +17,7 @@ const TernaryOperator = () => {
                     <img src={ifElse} alt="" />
                 </div>
                 <div className='ternary__section'>
-                    <h3>Here is the old syntax for an "if/else" statement</h3>
+                    <h3>With Ternary</h3>
                     <img src={ternary} alt="" />
                 </div>
             </div>
