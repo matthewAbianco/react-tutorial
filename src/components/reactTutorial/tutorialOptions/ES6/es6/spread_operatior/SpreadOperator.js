@@ -19,7 +19,7 @@ const SpreadOperator = () => {
                         <img src={spreadCode} alt='spread code' />
                     </div>
                     <div className='spread__image'>
-                        <h2>Spread Code</h2>
+                        <h2>Spread Outcome</h2>
                         <img src={spreadOutcome} alt='spread Outcome' />
                     </div>
                 </div>
