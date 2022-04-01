@@ -17,6 +17,7 @@ const ReactTutorial = () => {
                 <Link to='/components'><SidebarOption title="Components" /></Link>
                 <Link to='/class'><SidebarOption title="Class" /></Link>
                 <Link to='/props'><SidebarOption title="Props" /></Link>
+                <Link to='/events'><SidebarOption title="Events" /></Link>
                 <Link to='/conditionals'><SidebarOption title="Conditionals" /></Link>
                 <Link to='/lists'><SidebarOption title="Lists" /></Link>
                 <Link to='/forms'><SidebarOption title="Forms" /></Link>

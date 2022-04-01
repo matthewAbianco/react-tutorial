@@ -13,6 +13,7 @@ import TutorialJSX from './routes/tutorialRoutes/TutorialJSX';
 import TutorialComponents from './routes/tutorialRoutes/TutorialComponents';
 import TutorialClass from './routes/tutorialRoutes/TutorialClass'
 import TutorialProps from './routes/tutorialRoutes/TutorialProps'
+import TutorialEvents from './routes/tutorialRoutes/TutorialEvents'
 import TutorialConditionals from './routes/tutorialRoutes/TutorialConditionals'
 import TutorialLists from './routes/tutorialRoutes/TutorialLists'
 import TutorialForms from './routes/tutorialRoutes/TutorialForms'
@@ -61,6 +62,7 @@ ReactDOM.render(
       <Route path='/components' element={<TutorialComponents />} />
       <Route path='/class' element={<TutorialClass />} />
       <Route path='/props' element={<TutorialProps />} />
+      <Route path='/events' element={<TutorialEvents />} />
       <Route path='/conditionals' element={<TutorialConditionals />} />
       <Route path='/lists' element={<TutorialLists />} />
       <Route path='/forms' element={<TutorialForms />} />
