@@ -45,6 +45,11 @@ const Events = () => {
                     <p>"To pass an argument to an event handler, use an arrow function."</p>
                     <img src={secondEvent} alt="" />
                 </div>
+                <div className='events__section'>
+                    <h2>React Event Object</h2>
+                    <p>"Event handlers have access to the React event that triggered the function."</p>
+                    <img src={thirdEvent} alt="" />
+                </div>
                 <div>
                     <h2>Event Types</h2>
                     <p>
@@ -54,11 +59,6 @@ const Events = () => {
                     <button onClick={click}>Click me for an alert pop-up</button>
                     <button onMouseOver={hover}>Hover over me for an alert pop-up</button>
                     <input type='text' placeholder='type in me for an alert' onKeyPress={(e) => keyPressFunction(e)} text="asdf" />
-                </div>
-                <div className='events__section'>
-                    <h2>React Event Object</h2>
-                    <p></p>
-                    <img src={thirdEvent} alt="" />
                 </div>
 
             </div>
