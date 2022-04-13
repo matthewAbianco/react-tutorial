@@ -43,11 +43,7 @@ import HooksUseMemo from './routes/hooksRoutes/HooksUseMemo'
 import HooksCustomHooks from './routes/hooksRoutes/HooksCustomHooks'
 
 import NotesRoutes from './routes/notesRoutes/NotesRoutes'
-
-
-
-
-
+import CatchPageRoute from './routes/catchPageRoutes/CatchPageRoutes'
 
 
 ReactDOM.render(
@@ -93,8 +89,9 @@ ReactDOM.render(
       < Route path='/useMemo' element={<HooksUseMemo />} />
       < Route path='/customHooks' element={<HooksCustomHooks />} />
 
-      {/* note routes */}
+      {/* supplemntal pages */}
       < Route path='/notes' element={<NotesRoutes />} />
+      <Route path='*' element={<CatchPageRoute />} />
 
     </Routes>
   </BrowserRouter>,
