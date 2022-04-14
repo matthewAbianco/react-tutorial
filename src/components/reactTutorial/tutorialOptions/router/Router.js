@@ -20,7 +20,7 @@ const Router = () => {
                 <div className='router__section'>
                     <h2>Basic Usage</h2>
                     <p>The Router code is placed in the index.js file</p>
-                    <React />
+                    <img src={Route} alt="" />
                 </div>
                 <div className='router__section'>
                     <h2>Example Explained</h2>
@@ -33,7 +33,7 @@ const Router = () => {
                 <div>
                     <h2>Link</h2>
                     <p>"Link" does two things simultaneously. First it sets the current page, Second it is used to keep track of the browsing history </p>
-                    <Link />
+                    <img src={Link} alt="" />
                 </div>
             </div>
         </div>
