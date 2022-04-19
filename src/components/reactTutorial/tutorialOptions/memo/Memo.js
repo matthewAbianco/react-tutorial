@@ -1,7 +1,7 @@
 import React from 'react'
 import './Memo.css'
 
-import Memo from './assets/Memo.png'
+import Memoa from './assets/Memoa.png'
 
 const Memo = () => {
     return (
@@ -12,7 +12,7 @@ const Memo = () => {
                     <p>The "Memo" feature in React prevents a component from rendering if its props haven't been changed</p>
                     <p>This is a great way to improve performance</p>
                     <p>Memo gets applied at the bottom of a component where it gets exported</p>
-                    <img src={Memo} alt="" />
+                    <img src={Memoa} alt="" />
                 </div>
             </div>
         </div>
