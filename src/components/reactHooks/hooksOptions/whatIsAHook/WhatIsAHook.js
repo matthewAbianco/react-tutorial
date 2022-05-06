@@ -33,7 +33,7 @@ const WhatIsAHook = () => {
                     <h2>Hooks In Action</h2>
                     <p>Here is an example of hooks being used in action.</p>
                     <div>
-                        <h3>My fabourite car is {car}</h3>
+                        <h3>My favourite car is {car}</h3>
                         <button
                             type="button"
                             onClick={() => setCar('Ferrari')}
