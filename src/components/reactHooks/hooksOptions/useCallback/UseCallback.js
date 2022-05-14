@@ -45,8 +45,9 @@ const UseCallback = () => {
                         <li>A timer that produces a console.log every 5 seconds.</li>
                         <li>A input that has an output of 3 numbers based on the current number, and will console.log the input.</li>
                     </ol>
-                    <p>Without useCallback, The input function would re-render every 5 seconds and the console.log would run as well.</p>
+                    <p>Without useCallback, The timer and input function will console.log on every number change or 5 seconds.</p>
 
+                    <p>This is how the code looks without useCallback</p>
                     <img src={Regular} alt="" />
 
                     <img src={NoCallback} alt="" />
@@ -54,7 +55,8 @@ const UseCallback = () => {
                 </div>
                 <div className='call__section'>
                     <h2>With useCallback</h2>
-                    <p>Every time a component re-renders, the functions within get recreated.</p>
+                    <p>By adding useCallback to our GetItems function, the console.log will only run once we change the sum within.</p>
+                    <p>The console.log for the timer function will execute as the function executes with every render. </p>
 
                     <img src={WCallback} alt="" />
                     <img src={FullCallback} alt="" />
@@ -67,8 +69,6 @@ const UseCallback = () => {
                         <List getItems={getItems} />
 
                         <p> the count is at</p>      {count}
-
-
                     </div>
                 </div>
             </div>
