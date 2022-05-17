@@ -1,7 +1,7 @@
 .es6Intro__container {
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	padding: 10px, 0;
 	width: 100%;
 }
 
@@ -11,6 +11,12 @@
 	border-width: 2px;
 	border-style: 20px double red;
 	background-color: peachpuff;
+}
+
+.es6Intro__title {
+	border: 2cm;
+	border-color: beige;
+	background-color: beige;
 }
 
 .es6Intro__section p {
