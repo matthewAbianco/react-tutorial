@@ -9,8 +9,8 @@ import fiveWithoutParentheses from './assets/fiveWithoutParentheses.png'
 
 const ArrowFunctions = () => {
     return (
-        <div className='container'>
-            <div className='content'>
+        <div className='af__container'>
+            <div className='af__content'>
                 <div className='af__section'>
                     <h2>Arrow Functions</h2>
                     <p> Arrow functions require less code to create than an regular function </p>
@@ -19,19 +19,19 @@ const ArrowFunctions = () => {
                     <h2>Before</h2>
                     <img src={oneBefore} alt='regular function' />
                 </div>
-                <div className='af__Section'>
+                <div className='af__section'>
                     <h2>With Arrow Functions</h2>
                     <img src={twoWithArrowFunction} alt='arrow function' />
                 </div>
-                <div className='af__Section'>
+                <div className='af__section'>
                     <h2>Arrow Functions returning a value by default </h2>
                     <img src={threeDefaultReturnValue} alt='return value by default' />
                 </div>
-                <div className='af__Section'>
+                <div className='af__section'>
                     <h2>Arrow Function with parameters</h2>
                     <img src={fourWithParamaters} alt='arrow function with paramaters' />
                 </div>
-                <div className='af__Section'>
+                <div className='af__section'>
                     <h2>Arrow Function without parentheses</h2>
                     <img src={fiveWithoutParentheses} alt='arrow function without paraentheses' />
                 </div>

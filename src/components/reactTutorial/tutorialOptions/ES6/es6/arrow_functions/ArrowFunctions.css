@@ -1,0 +1,19 @@
+.af__container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px, 0px ;
+}
+
+.af__content {
+    padding: 5px;
+    border: 10px;
+    border-style: groove;
+    border-color: silver ;
+}
+
+.af__section {
+    border-bottom: 10px;
+   
+    border-style: groove;
+    border-color: silver ;
+}

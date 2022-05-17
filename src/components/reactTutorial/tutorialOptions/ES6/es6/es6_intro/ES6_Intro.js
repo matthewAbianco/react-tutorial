@@ -23,8 +23,6 @@ const ES6_Intro = () => {
             <Link to='/Modules'><li>Models</li></Link>
             <Link to='/TernaryOperator'><li>Ternary Operator</li></Link>
             <Link to='/SpreadOperator'><li>Spread Operator</li></Link>
-
-
           </ul>
         </div>
       </div>
