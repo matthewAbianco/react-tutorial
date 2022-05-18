@@ -21,7 +21,7 @@
     border-style: inset;
 }
 
-h1 {
+.variable__section h1 {
     padding: 5px;
     margin: 10px;
     border: 4px;
@@ -29,7 +29,7 @@ h1 {
     border-style: inset;
 }
 
-h2 {
+.variable__section h2 {
     padding: 5px;
     margin: 10px;
     border: 4px;
@@ -37,6 +37,6 @@ h2 {
     border-style: inset;
 }
 
-img {
+.variable__section img {
     padding: 10px;
 }

@@ -1,0 +1,21 @@
+.am__section {
+	padding: 40px 100px 40px 100px;
+	border: 2px, tan;
+	border-width: 4px;
+	border-style: inset ;
+	/* Azureish white */
+	background-color: #dbe9f4;
+}
+
+.am__section h2 {
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+.am__section h1 {
+	padding: 0, 0, 0, 10 ;
+}
+
+.am__section p {
+	padding: 4px;
+}

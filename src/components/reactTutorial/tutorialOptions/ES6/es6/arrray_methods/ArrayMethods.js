@@ -21,15 +21,12 @@ const ArrayMethods = () => {
                     <p>This method is primarily used for creating lists</p>
                 </div>
                 <div className='am__section'>
-                    <div>
-                        <h3>map() code</h3>
-                        <img src={mapCode} alt='map code' />
-                    </div>
-                    <div>
-                        <h3> map outcome</h3>
-                        <img src={mapOutcome} alt='map code' />
-                    </div>
-
+                    <h2>Map() Code</h2>
+                    <img src={mapCode} alt='map code' />
+                </div>
+                <div className='am__section'>
+                    <h2> Map Outcome</h2>
+                    <img src={mapOutcome} alt='map code' />
                 </div>
             </div>
         </div>
