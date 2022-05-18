@@ -12,7 +12,7 @@ const ArrowFunctions = () => {
         <div className='af__container'>
             <div className='af__content'>
                 <div className='af__section'>
-                    <h2>Arrow Functions</h2>
+                    <h1>Arrow Functions</h1>
                     <p> Arrow functions require less code to create than an regular function </p>
                 </div>
                 <div className='af__section'>
@@ -24,7 +24,7 @@ const ArrowFunctions = () => {
                     <img src={twoWithArrowFunction} alt='arrow function' />
                 </div>
                 <div className='af__section'>
-                    <h2>Arrow Functions returning a value by default </h2>
+                    <h2>Arrow Function returning a value by default </h2>
                     <img src={threeDefaultReturnValue} alt='return value by default' />
                 </div>
                 <div className='af__section'>

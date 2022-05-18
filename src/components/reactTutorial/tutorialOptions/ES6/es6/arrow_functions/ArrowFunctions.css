@@ -12,8 +12,11 @@
 }
 
 .af__section {
+    padding: 40px 100px 40px 100px;
     border-bottom: 10px;
    
     border-style: groove;
     border-color: silver ;
+    
 }
+

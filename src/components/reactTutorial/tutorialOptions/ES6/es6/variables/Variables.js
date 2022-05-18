@@ -9,11 +9,11 @@ import constantKeyword from './assets/constantKeyword.png'
 
 const Variables = () => {
     return (
-        <div className='variables__container'>
+        <div className='variable__container'>
             <div className='variable__content'>
 
                 <div className='variable__section'>
-                    <h1>Vareiables</h1>
+                    <h1>Variables</h1>
                     <p> Prior to ES6, there was only one method of defining variables; and that was with the "var" keyword.
                         Now with ES6, there are two new ways of defining variables, "let" and "const". </p>
                 </div>
@@ -41,13 +41,13 @@ const Variables = () => {
                     <img src={constantKeyword} alt='const' />
                     <p>*'const' defines a constant referance to a value, it does not define a constant value*</p>
 
-                    <p>You cannot </p>
+                    <p>You Cannot </p>
                     <ul>
                         <li>Reassign a constant value</li>
                         <li>Reassign a constant array</li>
                         <li>Reassign a constant object</li>
                     </ul>
-                    <p>You can</p>
+                    <p>You Can</p>
                     <ul>
                         <li>Change the elements of constant array</li>
                         <li>Change the properties of constant object</li>

@@ -1,0 +1,42 @@
+
+
+.variable__content{
+    width: 100%;
+}
+
+.variable__container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px ;
+}
+
+
+
+
+.variable__section {
+    padding: 40px 100px 40px 100px;
+    background-color: azure;
+    border: 4px;
+    border-color: gold;
+    border-style: inset;
+}
+
+h1 {
+    padding: 5px;
+    margin: 10px;
+    border: 4px;
+    border-color: gold;
+    border-style: inset;
+}
+
+h2 {
+    padding: 5px;
+    margin: 10px;
+    border: 4px;
+    border-color: gold;
+    border-style: inset;
+}
+
+img {
+    padding: 10px;
+}
