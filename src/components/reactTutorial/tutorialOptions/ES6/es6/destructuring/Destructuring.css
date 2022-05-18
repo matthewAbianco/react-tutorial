@@ -1,0 +1,20 @@
+.dest__section {
+    padding: 40px 100px 40px 100px;
+    border-style: inset;
+    border-color: maroon;
+    background-color: blanchedalmond;
+}
+
+
+
+.dest__section h2 {
+    text-decoration: underline maroon;
+}
+
+img {
+    padding: 20px 0;
+}
+
+p {
+    padding-top: 10px;
+}

@@ -1,5 +1,4 @@
 
-
 .variable__content{
     width: 100%;
 }
@@ -9,9 +8,6 @@
     flex-direction: column;
     padding: 10px ;
 }
-
-
-
 
 .variable__section {
     padding: 40px 100px 40px 100px;

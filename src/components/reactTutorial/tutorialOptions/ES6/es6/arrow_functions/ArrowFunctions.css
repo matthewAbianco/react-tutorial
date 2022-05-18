@@ -1,4 +1,6 @@
+
 .af__container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 10px, 0px ;
@@ -14,9 +16,13 @@
 .af__section {
     padding: 40px 100px 40px 100px;
     border-bottom: 10px;
-   
     border-style: groove;
     border-color: silver ;
-    
+    background-color: blanchedalmond;
+}
+
+.af__section h2 {
+    text-decoration: underline;
+    padding-bottom: 5px;
 }
 
