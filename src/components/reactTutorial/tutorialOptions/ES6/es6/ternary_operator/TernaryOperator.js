@@ -13,11 +13,11 @@ const TernaryOperator = () => {
                     <p>Ternary Operator Syntax: condition ? if condition true : if condition false</p>
                 </div>
                 <div className='ternary__section'>
-                    <h3>Here is the old syntax for an "if/else" statement</h3>
+                    <h2>Here is the old syntax for an "if/else" statement</h2>
                     <img src={ifElse} alt="" />
                 </div>
                 <div className='ternary__section'>
-                    <h3>With Ternary</h3>
+                    <h2>With Ternary</h2>
                     <img src={ternary} alt="" />
                 </div>
             </div>

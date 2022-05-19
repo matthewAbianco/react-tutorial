@@ -13,7 +13,7 @@ const Destructuring = () => {
                     <p>Destructuring is used to pull specific data from an array.</p>
                 </div>
                 <div className='dest__section'>
-                    <h2> Destructuring Objects</h2>
+                    <h2>Destructuring Objects</h2>
                     <p>Below is how you destructure an object</p>
                 </div>
                 <div className='dest__section'>
