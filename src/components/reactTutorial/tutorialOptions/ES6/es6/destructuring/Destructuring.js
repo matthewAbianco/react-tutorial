@@ -14,7 +14,7 @@ const Destructuring = () => {
                 </div>
                 <div className='dest__section'>
                     <h2> Destructuring Objects</h2>
-                    <p>Below is how you destrucre an object</p>
+                    <p>Below is how you destructure an object</p>
                 </div>
                 <div className='dest__section'>
 

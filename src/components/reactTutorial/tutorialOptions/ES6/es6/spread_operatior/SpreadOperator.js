@@ -6,7 +6,7 @@ import spreadOutcome from './assets/spreadOutcome.png'
 
 const SpreadOperator = () => {
     return (
-        <div className='spread__contaner'>
+        <div className='spread__container'>
             <div className='spread__content'>
                 <div className='spread__section'>
                     <h1>Spread Operator</h1>
@@ -16,6 +16,8 @@ const SpreadOperator = () => {
                 <div className='spread__section spread__images'>
                     <div className='spread__image'>
                         <h2>Spread Code</h2>
+                        <p>The result of this code is displayed in the console. </p>
+
                         <img src={spreadCode} alt='spread code' />
                     </div>
                     <div className='spread__image'>
