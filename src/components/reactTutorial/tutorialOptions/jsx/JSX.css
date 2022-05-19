@@ -1,0 +1,26 @@
+.jsx__container {
+	padding: 40px 100px 40px 100px;
+    /* Misty rose */
+	background-color: #ffe4e1;
+}
+
+.jsx__section {
+    padding: 20px 0 0 0;
+}
+
+.jsx__section h1 {
+    border-left: 6px gold solid;
+    border-bottom: 6px gold solid;
+    padding: 5px;
+}
+
+.jsx__section h2 {
+    padding: 5px;
+    border-left: 6px silver solid;
+    border-bottom: 6px silver solid;
+}
+
+.jsx__section img {
+    box-shadow: 5px 5px aqua, 10px 10px teal ;
+
+}
