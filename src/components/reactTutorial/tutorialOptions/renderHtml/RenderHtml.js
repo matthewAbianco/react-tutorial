@@ -8,7 +8,7 @@ const RenderHtml = () => {
         <div className='html__container'>
             <div className='html__content'>
                 <div className='html__section'>
-                    <h1>Render HTML</h1>
+                    <h1>Rendering HTML In React</h1>
                     <p>The overarching idea behind react is to be able to render HTML on a webpage.
                         HTML is rendered to a page using a function called “ReactDOM.render() </p>
                     <p>The “ReactDOM.render()" function takes two arguments, HTML code and an HTML
@@ -23,6 +23,7 @@ const RenderHtml = () => {
                 </div>
                 <div className='html__section'>
                     <h2>The Root Node</h2>
+                    <h3>*This example was taken from the W3Schools page as it is used in an HTML document and is outside the scope of this lesson*</h3>
                     <p>Using the above example. What is Shown in the "ReactDOM.render()" is what we what to dispaly "exampleElement", and where we want to display it "root" (</p>
                     <p>Think of it as a container that holds all of the content react will manage</p>
                     <p>"It does NOT have to be a "div" element and it does NOT have to have the id='root'" -W3Schools</p>

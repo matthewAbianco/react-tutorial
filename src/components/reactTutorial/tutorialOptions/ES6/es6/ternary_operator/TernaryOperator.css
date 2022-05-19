@@ -1,9 +1,14 @@
-.ternary__section {
+.ternary__container {
 	padding: 40px 100px 40px 100px;
     /* light yellow */
 	border: 2px red solid;
     border-radius: 30px;
+    /* Dust storm */
     background-color: #e5ccc9;
+}
+
+.ternary__section {
+    padding: 20px;
 }
 
 .ternary__section h2 {
@@ -11,3 +16,4 @@
     border-radius: 20px;
     padding: 10px;
 }
+

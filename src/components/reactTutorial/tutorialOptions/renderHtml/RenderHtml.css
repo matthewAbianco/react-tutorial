@@ -1,0 +1,16 @@
+.html__section {
+	padding: 40px 100px 40px 100px;
+    margin: 20px;
+    /* light yellow */
+	border: 2px red solid;
+    border-radius: 30px;
+    background-color: #e5ccc9;
+}
+
+.html__section h3 {
+    font-weight: 900;
+}
+
+.html__section p {
+    text-decoration: underline ;
+}
