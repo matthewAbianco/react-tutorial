@@ -17,6 +17,7 @@ const SpreadOperator = () => {
                     <div className='spread__image'>
                         <h2>Spread Code</h2>
                         <p>The result of this code is displayed in the console. </p>
+                        <p>We can combine the matt and skis object into a new object ...matt and ...skis.</p>
 
                         <img src={spreadCode} alt='spread code' />
                     </div>

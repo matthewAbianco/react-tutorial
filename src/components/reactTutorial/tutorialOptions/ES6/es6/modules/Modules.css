@@ -1,0 +1,35 @@
+.modules__section {
+	padding: 40px 100px 40px 100px;
+    /* light yellow */
+	border: 2px;
+	border-width: 20px;
+	border-style: initial;
+	background-color: #ffffe0;
+}
+
+.modules__section h1{
+    padding: 3px;
+    border-style: solid solid;
+    /* Glitter */
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-left-color: red;
+    border-right-color: red;
+    border-top-color: lightcoral;
+    border-bottom-color: lightcoral;
+}
+
+.modules__section h2{
+    padding: 3px;
+    border-style: none none solid solid;
+    /* Glitter */
+    border-left-width: 6px;
+    border-left-color: red;
+}
+
+.modules__section h3{
+    padding: 3px;
+    border-style: none none solid solid;
+    /* Glitter */
+    border-color: #e6e8fa;
+}
