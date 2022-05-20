@@ -1,0 +1,17 @@
+.component__container {
+	padding: 40px 100px 40px 100px;
+    /* Light grey */
+	background-color: #d3d3d3;
+}
+
+.component__section {
+    padding: 20px 10px ;
+    margin: 20px 0;
+    border: 3px silver solid;
+    border-radius: 30px;
+    color: maroon;
+}
+
+.component__section h3 {
+    padding: 10px 0 0 0;
+}

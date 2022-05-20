@@ -16,19 +16,19 @@ const Components = () => {
                 <div className='component__section'>
                     <h1>React Components</h1>
                     <p>"Components are functions that return HTML elements"</p>
-                    <p>Components are reusable pieces of code that exist in their own indipendant document. They are essentially the same as JavaScript functions. Other than their isolated nature and can return HTML</p>
+                    <p>Components are reusable pieces of code that exist in their own indipendant document. They are essentially the same as JavaScript functions. Other than their isolated nature and can return HTML.</p>
                     <p>Their are two types of components, "Functional" and "Class".</p>
                     <p>Class components were the primary method until React version 16.8 was released. Now Functional components are the primary method of creating react components.</p>
-                    <p> This website is made using Functional components</p>
+                    <p> This website is made using Functional components.</p>
                 </div>
                 <div className='component__section'>
                     <h2>Class vs Functional Component</h2>
-                    <p>Here is a comparison between class and functional components</p>
-                    <div className='component__section'>
+                    <p>Here is a comparison between class and functional components.</p>
+                    <div >
                         <h3>Class Component</h3>
                         <img src={classComponent} alt="" />
                     </div>
-                    <div className='component__section'>
+                    <div >
                         <h3>Functional Component</h3>
                         <img src={functionalComponent} alt="" />
                     </div>
@@ -36,14 +36,14 @@ const Components = () => {
                 </div>
                 <div className='component__section'>
                     <h2>Rendering A Component</h2>
-                    <p>For a component to be used in an application, it needs to be called in a render function</p>
-                    <p>This displays the "Train" component in the "root" element</p>
+                    <p>For a component to be used in an application, it needs to be called in a render function.</p>
+                    <p>This displays the "Train" component in the "root" element.</p>
                     <img src={renderComponent} alt="" />
                 </div>
                 <div className='component__section'>
                     <h2>Props</h2>
-                    <p>"Components can be passed as props, which stands for properties"</p>
-                    <p>Props are similar to function arguments, and can be used in components as attributes</p>
+                    <p>"Components can be passed as props, which stands for properties".</p>
+                    <p>Props are similar to function arguments, and can be used in components as attributes.</p>
                     <img src={props} alt="" />
                 </div>
                 <div className='component__section'>
@@ -58,7 +58,7 @@ const Components = () => {
                 </div>
                 <div className='component__section'>
                     <h2>Importing Components</h2>
-                    <p>Once a file has been exported. For it to be used in another file, it must be "imported" to that file</p>
+                    <p>Once a file has been exported. For it to be used in another file, it must be "imported" to that file.</p>
                     <img src={importComponent} alt="" />
                 </div>
 
