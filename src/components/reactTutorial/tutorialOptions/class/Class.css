@@ -1,0 +1,17 @@
+.class__container {
+	padding: 40px 100px 40px 100px;
+    /* Misty rose */
+	background-color: #ffe4e1;
+    height: 100%;
+    width: 100%;
+}
+
+.class__container p {
+    font-size: larger;
+}
+
+.class__section {
+    padding: 4px;
+    border: 1px gold solid;
+    box-shadow:5px 5px 8px gold, 12px 12px 8px silver, 17px 17px 8px brown ;
+}
