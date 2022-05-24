@@ -1,0 +1,50 @@
+.events__container {
+    padding: 40px 100px 40px 100px;
+    /* Lumber */
+    background-color: #ffe4cd ;
+}
+
+.events__section {
+    border: 2px grey solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.events__section h1 {
+    border: 2px grey solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.events__section h2 {
+    border: 2px grey solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.events__section button {
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #ffe4cd;
+    
+}
+
+.events__section input {
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-decoration: ;
+    background-color: #ffe4cd;
+    
+}
+
+.events__section button:hover {
+    cursor: pointer;
+}
+
+.events__section input:hover {
+        cursor: pointer;
+    }
