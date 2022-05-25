@@ -1,0 +1,29 @@
+.conditionals__container {
+    padding: 40px 100px 40px 100px;
+    /* Light yellow */
+    background-image: linear-gradient(to bottom right, #ffffe0, yellow);
+}
+
+.conditionals__section {
+    padding: 10px;
+    margin: 5px;
+    /* Cyber yellow */
+    border: 2px #ffd300 solid;
+    border-radius: 15px;
+}
+
+.conditionals__section h1 {
+    padding: 10px;
+    margin: 5px;
+    /* Cyber yellow */
+    border: 2px #ffd300 solid;
+    border-radius: 15px;
+}
+
+.conditionals__section h2 {
+    padding: 10px;
+    margin: 5px;
+    /* Cyber yellow */
+    border: 2px #ffd300 solid;
+    border-radius: 15px;
+}
