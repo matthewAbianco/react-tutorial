@@ -14,7 +14,7 @@ const CssStyling = () => {
             <div className='css__content'>
                 <div className='css__section'>
                     <h1>CSS Styling in React</h1>
-                    <p>Thier are 5 ways to style a page in React. But this tutorial will discuss three in detail </p>
+                    <p>Thier are 5 ways to style a page in React. But this tutorial will discuss three in detail. </p>
                     <ul>
                         <li>CSS Style Sheet</li>
                         <li>Javascript object</li>
@@ -25,7 +25,7 @@ const CssStyling = () => {
                 </div>
                 <div className='css__section'>
                     <h2>Inline Styling</h2>
-                    <p>For an element to have Inline styling, it's value must be a Javascript object</p>
+                    <p>For an element to have Inline styling, it's value must be a Javascript object.</p>
                     <p>This method is not preferred as it requires the maximum amount of code to be written.</p>
                     <img src={InlineStyle} alt="" />
                 </div>
@@ -48,8 +48,8 @@ const CssStyling = () => {
                 </div>
                 <div className='css__section'>
                     <h2>CSS Modules</h2>
-                    <p>While CSS Modules require slightly more code to be written, it can be extremely valuable in larger projects as programmers dont have to worry about which keywords have already been used </p>
-                    <p>A CSS module is created by adding ".module" to the CSS file. Example. "style.module.css"</p>
+                    <p>While CSS Modules require slightly more code to be written, it can be extremely valuable in larger projects as programmers dont have to worry about which keywords have already been used. </p>
+                    <p>A CSS module is created by adding ".module" to the CSS file. Example. "style.module.css".</p>
 
                     <div>
                         <h3>CSS code</h3>
