@@ -1,0 +1,39 @@
+.form__container {
+    padding: 40px 100px 40px 100px;
+    background-image: url(Sand.png) ;
+    width: 80%;
+}
+
+.form__section {
+    border: 8px tan solid;
+    border-style: ridge;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.form__section h2 {
+    border: 5px tan solid;
+}
+
+.form__section p {
+    font-size: larger;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.form__section textarea {
+    height: 100px;
+    width: 160px;
+}
+
+.form__section input {
+    padding: 10px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.form__section select {
+    padding: 10px;
+    border-radius: 40px;
+}

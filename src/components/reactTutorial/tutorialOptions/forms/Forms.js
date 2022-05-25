@@ -45,6 +45,8 @@ const Forms = () => {
         setMyPet(event.target.value)
     }
 
+
+
     return (
         <div className='form__container'>
             <div className='form__content'>
@@ -106,7 +108,7 @@ const Forms = () => {
                 <div className='form__section'>
                     <h2>Multiple Input Fields</h2>
                     <p>"You can control the values of more than one input field by adding a name attribute to each element."</p>
-                    <p>Our state starts as an empty object</p>
+                    <p>Our state starts as an empty object.</p>
                     <p>"To access the fields in the event handler use the event.target.name and event.target.value syntax."</p>
                     <p>"To update the state, use square brackets [bracket notation] around the property name."</p>
                     <p>Check Response for this in the console. aka f12</p>
@@ -135,16 +137,15 @@ const Forms = () => {
                 <div className='form__section'>
                     <h2>Text Area</h2>
                     <p>With React, a "textarea"'s value is placed in the value attribute. useState is how the value of the textarea will be managed. </p>
-                    <img src={TextArea} alt="" />
                     <form>
                         <textarea value={mytext} onChange={onChange} />
                     </form>
+                    <img src={TextArea} alt="" />
                 </div>
 
                 <div className='form__section'>
                     <h2>Select</h2>
                     <p>"In React, the selected value is defined with a value attribute on the select tag:"</p>
-                    <img src={Select} alt="" />
                     <form>
                         <select value={myPet} onChange={handleChange} >
                             <option value="Cat">Cat</option>
@@ -152,6 +153,9 @@ const Forms = () => {
                             <option value="Bird">Bird</option>
                         </select>
                     </form>
+                    <p>I am a  {myPet}</p>
+                    <img src={Select} alt="" />
+
                 </div>
             </div>
         </div>
