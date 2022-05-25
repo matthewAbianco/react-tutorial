@@ -1,0 +1,19 @@
+.lists__container {
+    padding: 40px 100px 40px 100px;
+    /* Bronze Yellow */
+    background-color: #737000 ;
+}
+
+.lists__content img {
+    margin: 10px;
+    padding: 20px;
+ background-image: url(Simple-scales.png);
+}
+
+.lists__section {
+    color: white;
+    /* Honeydew */
+    border: 8px #f0fff0 double; 
+    padding: 10px;
+    margin: 20px;
+}
