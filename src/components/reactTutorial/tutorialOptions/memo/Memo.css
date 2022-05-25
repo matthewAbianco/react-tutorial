@@ -1,0 +1,10 @@
+.memo__container {
+    padding: 40px 100px 40px 100px;
+    /* Azure mist, Nyanza, Aero blue */
+     background-image: repeating-radial-gradient(#f0ffff, #e9ffdb 10%, #c9ffe5 15%);;
+}
+
+.memo__section {
+    border: 20px #e9ffdb groove;
+    padding: 10px;
+}
