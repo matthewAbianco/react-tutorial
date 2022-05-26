@@ -26,7 +26,6 @@ const UseContext = () => {
                     <h2>Prop Drilling vs useContext</h2>
                     <div>
                         <h3>Prop Drilling</h3>
-                        <p>P</p>
                         <img src={Props} alt="" />
                     </div>
                     <div>

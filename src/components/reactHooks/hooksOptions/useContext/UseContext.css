@@ -1,0 +1,17 @@
+.context__container {
+    padding: 40px 15px ;
+    color: white;
+    /* Dark cyan, Dark magenta*/
+    background-color:  #008b8b;
+    border: #8b008b 10px double;
+}
+
+.context__section {
+    padding: 10px 5px ;
+    margin: 10px 5px ;
+    border: 3px #8b008b solid;
+}
+
+.context__section h2 {
+    text-decoration: underline #8b008b 3px;
+}
