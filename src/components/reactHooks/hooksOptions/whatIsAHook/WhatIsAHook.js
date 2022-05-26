@@ -50,9 +50,7 @@ const WhatIsAHook = () => {
                             type="button"
                             onClick={() => setCar('BMW')}
                         >BMW</button>
-                    </div>
 
-                    <div className='hook__section'>
                         <h2>Hooks Code</h2>
                         <p>This is the code for the function above</p>
                         <img src={Hooks} alt="" />
