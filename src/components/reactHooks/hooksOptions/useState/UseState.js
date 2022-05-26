@@ -116,12 +116,14 @@ const UseState = () => {
                         <h2>I took my date to an {date.resturaunt} resturaunt</h2>
                         <h2>I had a {date.salad} salad and {date.soup} soup to start. My main was a {date.steak} steak.</h2>
                         <h2>For dessert I had {date.dessert} </h2>
-
-                        <button
-                            type='button'
-                            onClick={changeResturant}
-                        >French
-                        </button>
+                        <div>
+                            <p>This button changes the resturaunt from Italian to French.</p>
+                            <button
+                                type='button'
+                                onClick={changeResturant}
+                            >French
+                            </button>
+                        </div>
                     </div>
                     <img src={UpdatingObjects} alt="" />
                 </div>

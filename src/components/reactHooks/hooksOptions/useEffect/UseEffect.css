@@ -1,0 +1,20 @@
+.effect__container {
+    padding: 40px 100px 40px 100px;
+    /* Cosmic latte */
+    background-color:  #fff8e7;
+    border: #fff8e7 20px ridge;
+}
+
+.effect__section {
+    border: #fff8e7 10px ridge;
+    padding: 20px;
+    margin: 15px;
+}
+
+.effect__section input {
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
