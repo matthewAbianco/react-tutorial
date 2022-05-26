@@ -1,0 +1,21 @@
+.sass__container {
+    padding: 40px 100px 40px 100px;
+    color: white;
+    /* American rose */
+    background-color: #ff033e;
+}
+
+.sass__section {
+    padding: 20px;
+    border: 3px wheat double ;
+}
+
+.sass__section h2 {
+    text-decoration: underline;
+
+}
+
+.sass__section h1 {
+    text-decoration: underline;
+
+}
