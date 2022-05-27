@@ -20,9 +20,13 @@ const CustomHooks = () => {
                     <p>A custom hook is a Javascript function with its name starting with "use"</p>
                     <p>This custom component toggles the value of something true or false, and has two more buttons to set the value to true or false </p>
                     <p>To use the custom hook in another compoent, it simply gets imported, as you would any other component in React. </p>
-                    <ToggleComponent />
-                    <img src={UseToggle} alt="" />
-                    <img src={UseToggleComponent} alt="" />
+
+                    <div className='custom__section'>
+                        <h3>The function below either toggles the value between true or false, or sets the value to true or false.</h3>
+                        <ToggleComponent />
+                        <img src={UseToggle} alt="" />
+                        <img src={UseToggleComponent} alt="" />
+                    </div>
                 </div>
             </div>
         </div>

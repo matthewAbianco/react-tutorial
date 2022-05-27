@@ -1,0 +1,40 @@
+.custom__container {
+    padding: 40px 100px;
+    /* Granny Smith Apple */
+    background-color: #a8e4a0;
+    /* Grape */
+    color: #6f2da8 ;
+}
+
+.custom__section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.custom__section h1 {
+    border-left: 5px #6f2da8 solid ;
+    border-bottom: 5px #6f2da8 solid ;
+}
+
+.custom__section h2 {
+    border-left: 5px #6f2da8 solid ;
+    border-bottom: 5px #6f2da8 solid ;
+}
+
+.custom__section h3 {
+    margin-bottom: 20px;
+}
+
+.custom__section button {
+    padding: 7px;
+    margin: 0 10px;
+    color: #a8e4a0;
+    background-color: #6f2da8;
+}
+
+.custom__section button:hover {
+    padding: 7px;
+    margin: 0 10px;
+    color: #6f2da8;
+    background-color: #a8e4a0;
+}
