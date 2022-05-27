@@ -33,13 +33,13 @@ const UseRef = () => {
                     <p>As the useEffect hook causes a render every time it is used, this can potentially cause a noticable slow down in our application or even create an infinite loop.</p>
                     <p>UseRef can also be used to access a DOM element directly.</p>
                 </div>
-                <div>
+                <div className='ref__section'>
                     <h2>An infinite loop</h2>
                     <p>This code counts the number of times a page renders. However, every time the count updates, it causes a render, creating an infinite loop.</p>
                     <p>To fully see the problem that useRef helps to solve, try this code.</p>
                     <img src={Infinite} alt="" />
                 </div>
-                <div>
+                <div className='ref__section'>
                     <h2>useRef In Action</h2>
                     <p>What makes useRef different than useEffect is that we create an object with useRef that holds the value we want.</p>
                     <p>The useRef object has a single property, called "current" which gets appended to what we want to use it on. </p>
