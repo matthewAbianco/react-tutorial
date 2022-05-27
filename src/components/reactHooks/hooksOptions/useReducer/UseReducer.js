@@ -10,7 +10,7 @@ function reducer(state, action) {
         case 'plus':
             return { count: state.count + 1 }
         case 'minus':
-            return { count: state.count + 1 }
+            return { count: state.count - 1 }
         default:
             return state
     }
@@ -40,7 +40,7 @@ const UseReducer = () => {
                 </div>
                 <div className='red__section'>
                     <h2>useState</h2>
-                    <p>This is how </p>
+                    <p>This is how the code would look with just useState. </p>
                     <img src={AuseState} alt="" />
                 </div>
                 <div className='red__section'>
@@ -54,9 +54,10 @@ const UseReducer = () => {
                     {state.count}
 
                     <button onClick={minus} > Subtract 1 </button>
+                    <p></p>
+                    <img src={AuseReducer} alt="" />
                 </div>
-                <></>
-                <img src={AuseReducer} alt="" />
+
             </div>
 
         </div>

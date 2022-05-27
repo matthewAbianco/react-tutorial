@@ -1,0 +1,40 @@
+.red__container {
+    padding: 40px 100px 40px 100px;
+    /* Dark moss green */
+    background-color: #4a5d23;
+    color: white;
+}
+
+.red__section {
+    padding: 15px;
+    margin: 15px;
+    /* Dark orange */
+    border: 3px #ff8c00 solid ;
+    border-radius: 20px;
+}
+
+.red__section button {
+    padding: 5px;
+    margin: 5px;
+    background-color: #ff8c00;
+    border: 3px #ff8c00 solid ;
+    border-radius: 10px;
+
+}
+
+.red__section button:hover {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    border: 3px #ff8c00 solid ;
+}
+
+.red__section h2 {
+    text-decoration: underline;
+    text-decoration-color: #ff8c00;
+}
+
+.red__section h1 {
+    text-decoration: underline;
+    text-decoration-color: #ff8c00;
+}
