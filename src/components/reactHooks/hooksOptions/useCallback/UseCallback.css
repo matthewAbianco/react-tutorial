@@ -1,0 +1,41 @@
+.call__container {
+    padding: 40px 100px 40px 100px;
+    /* Dark raspberry */
+    background-color: #872657;
+    color: white;
+    border: 20px white ridge;
+}
+
+.call__section {
+    padding: 20px;
+    margin: 20px;
+    border: 20px white ridge;
+}
+
+.call__code {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 4px white dashed;
+    padding: 5px;
+    margin: 5px;
+}
+
+.call__section input {
+    padding: 8px;
+    margin: 10px;
+}
+
+.call__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.call__section h1 {
+    text-decoration: underline;
+}
+
+.call__section h2 {
+    text-decoration: underline;
+}

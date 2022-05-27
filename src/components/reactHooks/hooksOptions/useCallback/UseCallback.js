@@ -57,22 +57,27 @@ const UseCallback = () => {
                     <h2>With useCallback</h2>
                     <p>By adding useCallback to our GetItems function, the console.log will only run once we change the sum within.</p>
                     <p>The console.log for the timer function will execute as the function executes with every render. </p>
+                    <div className='call__code' >
+                        <div className='call__input'>
+                            <input
+                                type="number"
+                                value={sum}
+                                onChange={e => setSum(parseInt(e.target.value))}
+                            />
+                            <List getItems={getItems} />
 
+                        </div>
+
+                        <div className='call__input'>
+                            <p> The count is at {count}</p>
+                        </div>
+                    </div>
                     <img src={WCallback} alt="" />
                     <img src={FullCallback} alt="" />
-                    <div >
-                        <input
-                            type="number"
-                            value={sum}
-                            onChange={e => setSum(parseInt(e.target.value))}
-                        />
-                        <List getItems={getItems} />
 
-                        <p> the count is at</p>      {count}
-                    </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
