@@ -1,0 +1,33 @@
+.umemo__container {
+    padding: 40px 100px 40px 100px;
+    /* French pink */
+    background-color: #fd6c9e ;
+    /* Gargoyle Gas */
+    border: 5px #ffdf46 dotted;
+}
+
+.umemo__section  {
+    padding: 10px;
+    margin: 10px;
+    border: 3px #ffdf46 dotted ;
+}
+
+.umemo__section button {
+    padding: 5px;
+    margin: 5px;
+    color: #fd6c9e ;
+}
+
+.umemo__section button:hover {
+    padding: 5px;
+    margin: 5px;
+    color: white ;
+    background-color: #fd6c9e ;
+}
+
+.umemo__section input {
+    padding: 5px;
+    margin: 5px;
+    background-color: #fd6c9e ;
+    color: white;
+}
